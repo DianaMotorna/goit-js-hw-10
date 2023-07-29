@@ -1,2 +1,31 @@
-@import './common';
-@import './example';
+select {
+  padding: 4px 2px;
+  margin-bottom: 20px;
+}
+
+.cat-info {
+  display: flex;
+
+  img {
+    object-fit: contain;
+  }
+
+  div {
+    padding: 20px;
+    p {
+      font-size: 20px;
+    }
+  }
+}
+
+.toggle-js {
+  display: none;
+}
+
+p.loader {
+  font-weight: 600;
+}
+
+p.error {
+  color: red;
+}
